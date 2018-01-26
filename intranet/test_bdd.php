@@ -6,7 +6,7 @@
 	if($_SERVER['HTTP_HOST'] != "dev.local") {
 		header("Location: home.php");
 	}
-	// Animooos
+	// TEST
 ?>
 <html>
 <head>
