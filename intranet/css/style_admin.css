@@ -1,0 +1,308 @@
+@font-face {
+  font-family: "light";
+  src: url("font/light.otf");
+}
+
+@font-face {
+  font-family: "Code";
+  src: url("font/CODE_Bold.ttf");
+}
+
+.leftside {
+	position: fixed;
+	top: 50px; left: 0; bottom: 0;
+	width: 20%;
+	background: #2E86C1;
+}
+
+.lefttopside {
+	height: 20%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0%;
+	text-align: left;
+	background: rgba(255,255,255,0.1);
+}.lts_center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+}
+
+.rightside {
+	position: absolute;
+	top: 0; left: 20%; bottom: 0;
+	width: 80%;
+}
+
+.usradmin {
+	text-align: center;
+	padding: 10px; margin: 0;
+	font-family: "bold", sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.permadmin {
+	text-align: center;
+	padding: 0; margin: 0;
+	padding: 5px;
+	padding-bottom: 10px;
+	color: #FFF;
+}
+
+.navadmin {
+	position: absolute;
+	top: 20%;
+	bottom: 0;
+	left: 0;
+	right: 0%;
+}.navadmin a {
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	color: #FFF;
+	background: none;
+	transition: all 0.6s ease;
+}.navadmin a:hover {
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	background: rgba(255,255,255,0.3);
+	transition: all 0.6s ease;
+}
+
+.adminContent {
+	position: fixed;
+	top: 50px; left: 20%; right: 0; bottom: 0;
+	background: #FFF;
+	display: none;
+}
+
+.ProfileAdminPlayer {
+	position: absolute;
+	top: 10px; left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}.ProfileAdminPlayer label {
+	margin: 0;
+	padding: 0;
+	font-family: "light", sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+}.ProfileAdminPlayer p {
+	margin: 0;
+	padding: 0;
+	font-family: "light", sans-serif;
+	text-transform: uppercase;
+}
+
+.statusProfile {
+	position: absolute;
+	top: 50%;
+	left: -25px;
+	transform: translateY(-50%);
+	background: #27AE60;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+}
+
+.adminProfile {
+	display: block;
+}
+
+.ALPI_title {
+	position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "light", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ALPI_subtitle {
+	position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "light", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+}
+
+.ALPI_content {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.ALPI_content table {
+	width: 100%;
+	text-align: center;
+}
+
+.ALPI_content tbody {
+}
+
+.ALPI_content td {
+	padding: 15px;
+	margin: 10px;
+	border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
+.ALPI_btn {
+	background: #3498db;
+	color: #FFF;
+	padding: 10px;
+	text-decoration: none;
+}.ALPI_btn:hover {
+	opacity: 0.8;
+}
+
+.information-content {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	overflow-y: scroll;
+}
+
+.title-information {
+	font-family: "Code", sans-serif;
+	font-size: 25px;
+	display: inline;
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	transform: translateY(-50%);
+	padding: 0; margin: 0;
+}.spacer-information {
+	background: #2E86C1;
+	width: 2px;
+	height: 400px;
+	display: inline;
+	position: absolute;
+	top: 50%;
+	left: 220px;
+	transform: translateY(-50%);
+}
+
+.information {
+	position: absolute;
+	top: 50%;
+	left: 270px;
+	right: 0;
+	transform: translateY(-50%);
+}.ici-arrow {
+	opacity: 0.7;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: rotateZ(-90deg) translateX(-50%);
+}
+
+.information-content-change {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	bottom: -100%;
+	right: 0;
+	background: #34495e;
+	color: #FFF;
+}.information-content-change * {
+	color: #FFF;
+}.information-content-change .icc-title {
+	position: absolute;
+	top: 5px; left: 50%;
+	transform: translateX(-50%);
+	padding: 10px; padding-left: 15px; padding-right: 15px; margin: 0;
+	font-family: "Code", sans-serif;
+	border-bottom: 2px solid #FFF;
+	font-size: 30px;
+	text-align: center;
+}.icc-btn-content {
+	position: absolute;
+	top: 100px; left: 10px; right: 10px;
+}.icc-btn {
+	background: #2E86C1;
+	padding: 10px;
+	display: inline-block;
+	width: 220px;
+	text-align: center;
+	margin: 3px auto;
+	cursor: pointer;
+	transition: all 0.6s ease;
+}.icc-btn:hover {
+	background: #499ad1;
+	transition: all 0.6s ease;
+}.icc-important {
+	background: #e74c3c !important;
+}.icc-important:hover {
+	background: #e87468 !important;
+}.alt {
+	display: none;
+	position: absolute;
+	top: 65%; left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}.alt input {
+	background: none;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	padding: 10px;
+	font-family: "light", sans-serif;
+}.alt input[type=submit] {
+	background: #2E86C1;
+	cursor: pointer;
+	transition: all 0.6s ease;
+}.alt input[type=submit]:hover {
+	background: #499ad1;
+	transition: all 0.6s ease;
+	}.alt input[type=text],.alt input[type=number] {
+	border-bottom: 2px solid #2E86C1;
+	margin: 5px;
+	transition: all 0.6s ease;
+}.alt input[type=text]:hover,.alt input[type=number]:hover {
+	background: rgba(0,0,0,0.2);
+	transition: all 0.6s ease;
+}.alt select {
+	background: none;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+	font-family: "light", sans-serif;
+	border-bottom: 2px solid #2E86C1;
+	margin: 5px;
+	transition: all 0.6s ease;
+}.alt option {
+	background: #34495e;
+}.alt-title {
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+	font-family: "Code", sans-serif;
+}.alt-subtitle {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 20px;
+}.alt textarea {
+	width: 790px;
+	height: 230px;
+	border: 2px solid #2E86C1;
+	background: none;
+	outline: none;
+}

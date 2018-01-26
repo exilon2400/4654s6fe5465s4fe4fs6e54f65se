@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "light";
+  src: url("font/light.otf");
+}
+
+.content {
+    background: -webkit-linear-gradient(#FFF,rgba(0,0,0,0.2));
+}
+
+.THoC_center {
+	position: absolute;
+	top: 45%; left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 700px;
+}.THoC_center::selection {
+	background: none;
+}.THoC_center h1 {
+	font-family: "light", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 140px;
+	letter-spacing: 10px;
+	margin: 0;
+}
+
+.THoC_search {
+	height: 46px;
+	margin: 10px;
+	background: rgba(0,0,0,0.15);
+}.THoC_search input {
+	background: none;
+	border: none;
+	width: 90%;
+	height: 46px;
+	outline: none;
+	display: inline;
+	font-size: 25px;
+	padding: 0;
+	float: left;
+	font-family: 'light', sans-serif;
+	padding-left: 10px;
+}.THoC_search button {
+	background: none;
+	border: none;
+	height: 46px;
+	outline: none;
+	display: inline;
+	float: right;
+	opacity: 0.6;
+	cursor: pointer;
+}

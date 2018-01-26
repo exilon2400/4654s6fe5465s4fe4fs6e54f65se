@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "light";
+  src: url("font/light.otf");
+}
+
+.content {
+    background: -webkit-linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)) !important;
+}
+
+.console {
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: #111;
+	height: 85%;
+	width: 85%;
+}
+
+.console-main {
+	margin: 0;
+	font-family: "light", sans-serif;
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	height: 92.5%;
+	overflow-y: scroll;
+	padding-left: 10px;
+}
+
+.console-command {
+	position: absolute;
+	bottom: 0; left: 0; right: 100px;
+	width: 90%;
+	padding: 10px;
+	font-size: 25px;
+	background: #111;
+	border: none;
+	outline: none;
+	color: #FFF;
+	font-family: "light", sans-serif;
+	background: #222;
+	height: 7.5%;
+}
+
+.console-submit {
+	position: absolute;
+	bottom: 0; right: 0;
+	width: 10%;
+	padding: 10px;
+	font-size: 25px;
+	background: #222;
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	outline: none;
+	font-family: "light", sans-serif;
+	height: 7.5%;
+}

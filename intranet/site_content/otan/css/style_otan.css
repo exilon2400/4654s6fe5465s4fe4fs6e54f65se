@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "bold";
+  src: url("../../../css/font/bold.otf");
+}
+@font-face {
+  font-family: "light";
+  src: url("../../../css/font/light.otf");
+}
+@font-face {
+  font-family: "CODE_Bold";
+  src: url("../../../css/font/CODE_Bold.ttf");
+}
+
+.OTAN_content {position:fixed;top:50px;left:0;right:0;bottom:0;}
+
+
+.OTAN_header {
+	background: #283747;
+	position: absolute;
+	top: 0; left: 0; bottom: 0;
+	width: 22.5%;
+}.OTAN_header * {
+	color: #FFF;
+}
+
+.OTAN_header_title {
+	font-family: "bold", sans-serif;
+	font-size: 70px;
+	margin: 10px;
+	text-align: center;
+}
+
+.OTAN_header_menu {
+	padding-top: 25px;
+	overflow: hidden;
+}
+
+.OTAN_header_menu_link {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "light";
+	display: block;
+	width: 100%;
+	color: inherit;
+	text-transform: uppercase;
+	background: none;
+	transition: all 0.3s ease;
+	line-height: 50px;
+	height: 50px;
+	padding-left: 15px;
+	margin-top: 10px;
+}.OTAN_header_menu_link:hover {
+	background: rgba(255,255,255,0.3);
+	transition: all 0.3s ease;
+}
+
+.OTAN_header_menu_link img {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.OTAN_header_menu_link_spacer {
+	font-family: inherit;
+	color: inherit;
+	font-size: inherit;
+	padding-left: 65px;
+}
+
+/*****TOUS*****/
+.OTAN_content {
+	background: #34495E;
+	position: absolute;
+	top: 0; left: 22.5%; bottom: 0; right: 0;
+}
+/**************/
+
+
+
+/*****INDEX*****/
+
+/***************/
+
+
+
+/*****INFORMATION*****/
+
+/*********************/
+
+
+
+/*****RECRUTEMENT*****/
+
+/*********************/
+
+
+
+/*****COMPTE*****/
+.OTC_username {
+	position: absolute;
+	top: 10%; left: 50%;
+	transform: translateX(-50%);
+	font-family: "CODE_Bold", sans-serif;
+	font-size: 35px;
+	color: #FFF;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px;
+	letter-spacing: 1px;
+}
+
+.OTC_menu{
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.OTC_menu_btn {
+	padding: 10px;
+	margin: 5px;
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	background: #2980B9;
+	color: #FFF;
+}.OTC_menu_btn:hover {
+	transition: all 0.3s ease;
+	background: #5499C7;
+	color: #FFF;
+}.OTC_menu_btn img {
+	margin-top: 10px;
+}.OTC_menu_btn p {
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}.OTCMBPL {
+	background: #3498DB;
+}.OTCMBPL:hover {
+	background: #5DADE2;
+}
+/****************/

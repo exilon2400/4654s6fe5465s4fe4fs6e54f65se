@@ -1,0 +1,36 @@
+/*
+	#27AE60;
+	#229954;
+*/
+.TIRNA_header_part1 {
+	background: #229954 !important;
+}
+
+.select {
+	background: #229954 !important;
+	padding: 10px;
+}
+
+.connexion input {
+	border-bottom: 2px solid #229954 !important;
+}
+
+.inscription input {
+	border-bottom: 2px solid #229954 !important;
+}
+
+input[type=submit] {
+	background: #229954 !important;
+}
+
+input[type=submit]:hover {
+	background: #27AE60 !important;
+}
+
+select {
+	border: 1px solid #229954 !important;
+}
+
+color {
+	color: #229954 !important;
+}

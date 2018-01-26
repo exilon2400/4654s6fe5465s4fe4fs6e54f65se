@@ -1,0 +1,15 @@
+<div class="TPM_header">
+	<div class="TPMH_left">
+		<a href="<?php goto_t($id, "index.php"); ?>">Accueil</a>
+		<a href="<?php goto_t($id, "contenu.php"); ?>">Contenu</a>
+	</div>
+
+	<div class="TPMH_title"><a href="<?php goto_t($id, "index.php"); ?>">TPM</a></div>
+
+	<div class="TPMH_right">
+		<a href="<?php goto_t($id, "news.php"); ?>">Actualité</a>
+		<a href="<?php goto_t($id, "membre.php"); ?>">Membre</a>
+		<a href="<?php goto_t($id, "contact.php"); ?>">Contact</a>
+	</div>
+	<br style="clear: both;">
+</div>

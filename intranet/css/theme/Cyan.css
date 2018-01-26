@@ -1,0 +1,46 @@
+/*
+	#1ABC9C;
+	#17A589;
+*/
+.TIRNA_header_part1 {
+	background: #17A589;
+}
+
+.TIRNA_header_menu_box {
+	background: #17A589;
+}.TIRNA_header_menu_box:hover {
+	background: #1ABC9C;
+}
+
+.TIRNA_header_menu_title {
+	background: #17A589;
+}
+.TIRNA_header_userProfile {
+	background: url('../../img/x_c.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.userBox {
+	background: #17A589;
+}.userBox:hover {
+	background: #1ABC9C;
+}
+
+.THS_center select {
+	border-bottom: 1px solid #1ABC9C;
+}
+
+#THS_restart {
+	background: #17A589;
+	transition: all 0.3s ease;
+}#THS_restart:hover {
+	transition: all 0.3s ease;
+	background: #1ABC9C;
+}
+
+.TIRNA_header_settings_close {
+	background: #17A589;
+}.TIRNA_header_settings_close:hover {
+	transition: all 0.3s ease;
+	background: #1ABC9C;
+}

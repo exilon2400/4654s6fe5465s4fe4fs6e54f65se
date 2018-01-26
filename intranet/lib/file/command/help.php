@@ -1,0 +1,4 @@
+<?php
+	$TC_text = '[CMD HRP] disconnect : Deconnexion et redirection vers la page d\'accueil<br>[CMD RP] exit : Ferme la console de Tirna et vous redirige vers la page home<br> [CMD RP] clear : Vide la console<br> [CMD RP] color : Couleur en HEX du texte (exemple : <color style="color:#D35400">color #D35400</color>)<br> [CMD RP] ping : permez d\'obtenir l\'adresse ip d\'un site<br> [CMD RP] settings : permez de voir, changer ou remettre par defaut ses paramettre<br> [CMD RP] crypt : permez de crypter une chaine de caractère<br><br>Si vous souhaitez plus d\'information sur une commande tapez ? ou --help après cette dernière - exemple : color --help';
+	$_SESSION["TIRNA_COMMAND"] = $_SESSION["TIRNA_COMMAND"].' > '.' '.$command.'<br><br>'.$TC_text.'<br>';
+?>

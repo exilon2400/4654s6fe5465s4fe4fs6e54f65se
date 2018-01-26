@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "light";
+  src: url("font/light.otf");
+}
+
+.content {
+    background: -webkit-linear-gradient(#FFF,rgba(0,0,0,0.2));
+}
+
+.TS_center {
+	position: absolute;
+	top: 10%;
+	transform:translateY(-50%);
+	width: 30%;
+}.TS_center::selection {
+	background: none;
+}.TS_center h1 {
+	font-family: "light", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 10px;
+	margin: 0;
+}
+
+.TS_search {
+	height: 46px;
+	margin: 10px;
+	background: rgba(0,0,0,0.15);
+}.TS_search input {
+	background: none;
+	border: none;
+	width: 80%;
+	height: 46px;
+	outline: none;
+	display: inline;
+	font-size: 25px;
+	padding: 0;
+	float: left;
+	font-family: 'light', sans-serif;
+	padding-left: 10px;
+}.TS_search button {
+	background: none;
+	border: none;
+	height: 46px;
+	outline: none;
+	display: inline;
+	float: right;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.TS_middle_liner {
+	position: absolute;
+	left: 30.2%;
+	height: 100%;
+	width: 2px;
+	background: rgba(0,0,0,0.1);
+}
+
+.TS_left-side_liner {
+	position: absolute;
+	top: 20%;
+	height: 2px;
+	width: 30.2%;
+	background: rgba(0,0,0,0.1);
+}
+
+.TS_right-side {
+	position: absolute;
+	top: 0; left: 30.2%; right: 0; bottom: 0;
+	overflow-y: scroll;
+}
+
+.TS_left-side_content {
+	position: absolute;
+	top: 20.2%; left: 0; bottom: 0;
+	width: 30.2%;
+}
+
+
+.TS_rs_site {
+	background: rgba(0,0,0,0.07);
+	margin: 10px;
+	padding: 5px;
+	display: none;
+}.TSR_title {
+	font-family: "light", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+}.TSR_title:before {
+	font-family: "light", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 5px;
+	content: "-";
+}.TSR_link {
+	font-family: "light", sans-serif;
+	margin: 2.5px;
+	padding: 0;
+	color: rgb(0,162,232);
+	text-decoration: underline;
+	cursor: pointer;
+}.TSR_description {
+	font-family: "light", sans-serif;
+	margin: 10px;
+	padding: 0;
+
+}
