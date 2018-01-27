@@ -15,7 +15,11 @@
 						<option value="Yellow" <?php if($_SESSION["Theme"] == "Yellow") {echo "selected";} ?>>Jaune</option>
 						<option value="Cyan" <?php if($_SESSION["Theme"] == "Cyan") {echo "selected";} ?>>Cyan</option>
 						<option value="Purple" <?php if($_SESSION["Theme"] == "Purple") {echo "selected";} ?>>Violet</option>
-						<?php if ($_SESSION["AdminGrade"] >= 11) { ?>
+						<?php if ($_SESSION["AdminGrade"] >= 1) { ?>
+						<option value="Black" <?php if($_SESSION["Theme"] == "Black") {echo "selected";} ?>>Noir</option>
+						<?php } ?>
+						<?php if ($_SESSION["AdminGrade"] >= 13) { ?>
+							<option value="Rasta" <?php if($_SESSION["Theme"] == "Rasta") {echo "selected";} ?>>Rasta</option>
 							<option value="Darkblue" <?php if($_SESSION["Theme"] == "Darkblue") {echo "selected";} ?>>Le thême des dieux</option>
 						<?php } ?>
 					</select>

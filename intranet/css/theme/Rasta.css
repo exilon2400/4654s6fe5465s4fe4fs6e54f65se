@@ -1,0 +1,46 @@
+/*
+	#B03A2E;
+	#641E16;
+*/
+.TIRNA_header_part1 {
+	background: #641E16;
+}
+
+.TIRNA_header_menu_box {
+	background: #641E16;
+}.TIRNA_header_menu_box:hover {
+	background: #B03A2E;
+}
+
+.TIRNA_header_menu_title {
+	background: #641E16;
+}
+.TIRNA_header_userProfile {
+	background: url('../../img/x_rasta.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.userBox {
+	background: #641E16;
+}.userBox:hover {
+	background: #B03A2E;
+}
+
+.THS_center select {
+	border-bottom: 1px solid #B03A2E;
+}
+
+#THS_restart {
+	background: #641E16;
+	transition: all 0.3s ease;
+}#THS_restart:hover {
+	transition: all 0.3s ease;
+	background: #B03A2E;
+}
+
+.TIRNA_header_settings_close {
+	background: #641E16;
+}.TIRNA_header_settings_close:hover {
+	transition: all 0.3s ease;
+	background: #B03A2E;
+}
