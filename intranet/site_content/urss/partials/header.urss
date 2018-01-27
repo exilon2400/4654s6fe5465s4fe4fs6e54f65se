@@ -6,6 +6,9 @@
 		<a class="URSS_header_menu_link"  href="<?php goto_t($id, "recrutement.php"); ?>"><img src="img/home.svg"><div class="URSS_header_menu_link_spacer">Recrutement</div></a>
 		<a class="URSS_header_menu_link"  href="<?php goto_t($id, "information.php"); ?>"><img src="img/home.svg"><div class="URSS_header_menu_link_spacer">Information</div></a>
 		<?php if($_SESSION["Side"] == 1) { ?>
+			<a class="URSS_header_menu_link"  href="<?php goto_t($id, "membre.php"); ?>"><img src="img/home.svg"><div class="URSS_header_menu_link_spacer">Membre de l'armée</div></a>
+		<?php } ?>
+		<?php if($_SESSION["Side"] == 1) { ?>
 			<a class="URSS_header_menu_link"  href="<?php goto_t($id, "compte.php"); ?>"><img src="img/account.svg"><div class="URSS_header_menu_link_spacer">Mon compte</div></a>
 		<?php } ?>
 	</nav>

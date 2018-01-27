@@ -3,7 +3,7 @@
 ?>
 <title>Tirna | URSS - Compte</title>
 <div class="URSS_content">
-	<p class="UTC_username">Bienvenu<?php if($_SESSION["Sexe"]==1){echo "e";} echo ' '.$_SESSION["Pseudo"];?></p>
+	<p class="UTC_username">Priviet, <?php echo ' '.$_SESSION["Pseudo"];?></p>
 	<div class="UTC_menu">
 		<div class="UTC_menu_btn UTCMBPL">
 			<img src="img/home.svg" width="80px;">

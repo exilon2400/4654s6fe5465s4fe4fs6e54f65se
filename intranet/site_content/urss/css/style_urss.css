@@ -82,19 +82,72 @@
 
 
 /*****INDEX*****/
-
+#URSS_drapeau {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 500px;
+	height: 500px;
+}
 /***************/
 
 
 
 /*****INFORMATION*****/
+#URSS_information {
+	font-family: "CODE_Bold", sans-serif;
+	text-align: center;
+	position: absolute;
+	top: 30%; left: 50%;
+	transform: translateX(-50%);
+	font-size: 25px;
+}
 
+#URSS_information_2 {
+	font-family: "CODE_Bold", sans-serif;
+	text-align: center;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translateX(-50%);
+	font-size: 25px;
+}
+
+#URSS_Boutton_Recrutement {
+	background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+	top: 60%; left: 50%;
+	transform: translateX(-50%);
+	font-family: "CODE_Bold", sans-serif;
+}
 /*********************/
 
 
 
 /*****RECRUTEMENT*****/
+#URSS_recrutement {
+	font-family: "CODE_Bold", sans-serif;
+	text-align: center;
+	position: absolute;
+	top: 20%; left: 50%;
+	transform: translateX(-50%);
+	font-size: 25px;
+}
 
+#URSS_propagande {
+	position:absolute;
+	top:450px;
+	left:50%;
+	transform: translateX(-50%);
+	width: 500px;
+	height: 500px;
+}
 /*********************/
 
 
@@ -149,3 +202,24 @@
 	background: #5DADE2;
 }
 /****************/
+
+/*****MEMBRE*****/
+#URSS_membres {
+	text-align: center;
+	text-decoration: underline;
+	font-size : 25px;
+}
+
+.URSS_membre {
+	font-size: 20px;
+	position: absolute;
+	top:150px;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+.URSS_membre p {
+	font-family: light;
+	color: white;
+}
+/*********************/
