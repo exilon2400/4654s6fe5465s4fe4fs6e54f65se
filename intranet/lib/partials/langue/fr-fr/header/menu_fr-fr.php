@@ -26,7 +26,7 @@
 					<p>Rechercher - En dev</p>
 				</div>
 
-				<?php if ($_SESSION["AdminGrade"] >= 1) { ?>
+				<?php if ($_SESSION["AdminGrade"] >= 2) { ?>
 					<a href="admin.php"><div class="TIRNA_header_menu_box">
 						<img src="img/admin.svg" width="80px;">
 						<p>Panneau d'adminitration</p>

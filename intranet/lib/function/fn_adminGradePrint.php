@@ -5,39 +5,48 @@
 				return "Membre";
 			}
 			if($adminGrade == 1) {
-				return "Staff";
+				return "Bêta-Tester";
 			}
 			if($adminGrade == 2) {
-				return "Ingénieur Technique";
+				return "Staff";
 			}
 			if($adminGrade == 3) {
-				return "Support Technique";
+				return "Helpeur";
 			}
 			if($adminGrade == 4) {
-				return "Directeur Artistique";
+				return "Ingénieur Technique";
 			}
 			if($adminGrade == 5) {
-				return "Modérateur";
+				return "Support Technique";
 			}
 			if($adminGrade == 6) {
-				return "Administrateur";
+				return "Développeur";
 			}
 			if($adminGrade == 7) {
-				return "Référent R.P";
+				return "Directeur Artistique";
 			}
 			if($adminGrade == 8) {
-				return "Chef Mappeur";
+				return "Modérateur";
 			}
 			if($adminGrade == 9) {
-				return "Chef Développeur";
+				return "Administrateur";
 			}
 			if($adminGrade == 10) {
-				return "D.R.H.";
+				return "Référent R.P";
 			}
 			if($adminGrade == 11) {
-				return "Technicien Intranet";
+				return "Chef Mappeur";
 			}
 			if($adminGrade == 12) {
+				return "Chef Développeur";
+			}
+			if($adminGrade == 13) {
+				return "D.R.H.";
+			}
+			if($adminGrade == 14) {
+				return "Technicien Intranet";
+			}
+			if($adminGrade == 15) {
 				return "Technicien Intranet / Modérateur";
 			}
 		} elseif($langue == "en-en") {

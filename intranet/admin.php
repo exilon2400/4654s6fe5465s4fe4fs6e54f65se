@@ -9,7 +9,7 @@
 		$_SESSION["TIRNA_VAR_search"] = $search_TS;
 		header("Location: search.php");
 	}
-	if($_SESSION["AdminGrade"] == 0) {
+	if($_SESSION["AdminGrade"] == 0 || $_SESSION["AdminGrade"] == 1) {
 		header("Location: home.php");
 	}
 
