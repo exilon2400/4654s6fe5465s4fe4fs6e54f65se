@@ -20,7 +20,6 @@
 				$_SESSION["TIRNA_ADMIN_EDIT_1_Safe"] = $donnees["Safe"];
 				$_SESSION["TIRNA_ADMIN_EDIT_1_Langue"] = $donnees["Langue"];
 
-
 				$_SESSION["TIRNA_ADMIN_EDIT_1_UserAdmin"] = $_SESSION["Pseudo"];
 			?>
 			<script src="js/animation/admin/change_btn.js"></script>
@@ -36,8 +35,8 @@
 						<p class="info">Niveau d'administration : <?php echo adminGradePrint($donnees["AdminGrade"], "fr-fr"); ?></p>
 						<p class="info">Side : <?php echo sidePrint($donnees["Side"], "fr-fr"); ?></p>
 						<p class="info">Sexe : <?php echo sexePrint($donnees["Sexe"], "fr-fr"); ?></p>
-						<p class="info">Niveau de bannissement : <?php if ($donnees["Ban"] == 0) {echo "Non bannis.";} else {echo "Bannis";} ?></p>
-						<p class="info">Raison du bannissement : <?php if (!empty($donnees["Ban_Why"])) {echo $donnees["Ban_Why"];} else {echo $donnees["Pseudo"]." n'as pas était bannis.";} ?></p>
+						<p class="info">Niveau de bannissement : <?php if ($donnees["Ban"] == 0) {echo "Non bannis.";} else {echo '<color style="color:red;">Bannis</color>';} ?></p>
+						<?php  if ($donnees["Ban"] == 1) { ?> <p class="info">Raison du bannissement : <?php if (!empty($donnees["Ban_Why"])) {echo $donnees["Ban_Why"];} else {echo $donnees["Pseudo"]." n'as pas était bannis.";} ?></p> <p class="info">Bannis par : <?php echo $donnees["BanAdmin"]; ?></p> <?php } ?>
 						<p class="info">Thême : <?php echo $donnees["Theme"]; ?></p>
 						<p class="info">Page d'accueil : <?php echo $donnees["HomeType"]; ?></p>
 						<p class="info">Paramètre d'affichage de l'adresse mail : <?php if ($donnees["MailShow"] == 1) {echo $donnees["Pseudo"]." ne souhaite pas afficher son adresse mail en publique.";} else {echo $donnees["Pseudo"]." autorise l'affichage de son adresse mail.";} ?></p>

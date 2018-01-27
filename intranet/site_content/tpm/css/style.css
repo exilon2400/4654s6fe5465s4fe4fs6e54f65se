@@ -62,7 +62,7 @@
 	top: 50%;
 	left: 20px;
 	transform: translateY(-50%);
-	font-size: 30px;
+	font-size: 23px;
 	text-transform: uppercase;
 }
 
@@ -92,6 +92,6 @@
 	top: 50%;
 	right: 20px;
 	transform: translateY(-50%);
-	font-size: 30px;
+	font-size: 23px;
 	text-transform: uppercase;
 }

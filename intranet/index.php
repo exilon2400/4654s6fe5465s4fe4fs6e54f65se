@@ -66,6 +66,7 @@
 				</form>
 			</div>
 		</div>
+		<p class="PREALPHA" style="position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%); font-weight: bold; text-transform: uppercase;">PRE-ALPHA, version 1.0</p>
 	</div>
 </body>
 </html>

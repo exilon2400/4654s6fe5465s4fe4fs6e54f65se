@@ -2,6 +2,7 @@
 	<div class="TPMH_left">
 		<a href="<?php goto_t($id, "index.php"); ?>">Accueil</a>
 		<a href="<?php goto_t($id, "contenu.php"); ?>">Contenu</a>
+		<a href="<?php goto_t($id, "exclus.php"); ?>">Exclus</a>
 	</div>
 
 	<div class="TPMH_title"><a href="<?php goto_t($id, "index.php"); ?>">TPM</a></div>
