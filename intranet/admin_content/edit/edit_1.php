@@ -100,20 +100,20 @@
 								<select name="icc-text-adminGrade">
 									<option value="0" <?php if ($donnees["AdminGrade"] == 0) {echo "selected";} ?>>Membre</option>
 									<option value="1" <?php if ($donnees["AdminGrade"] == 1) {echo "selected";} ?>>Bêta-Tester</option>
-									<option value="1" <?php if ($donnees["AdminGrade"] == 2) {echo "selected";} ?>>Staff</option>
-									<option value="1" <?php if ($donnees["AdminGrade"] == 3) {echo "selected";} ?>>Helpeur</option>
-									<option value="2" <?php if ($donnees["AdminGrade"] == 4) {echo "selected";} ?>>Ingénieur Technique</option>
-									<option value="3" <?php if ($donnees["AdminGrade"] == 5) {echo "selected";} ?>>Support Technique</option>
-									<option value="4" <?php if ($donnees["AdminGrade"] == 6) {echo "selected";} ?>>Développeur</option>
-									<option value="4" <?php if ($donnees["AdminGrade"] == 7) {echo "selected";} ?>>Directeur Artistique</option>
-									<option value="5" <?php if ($donnees["AdminGrade"] == 8) {echo "selected";} ?>>Modérateur</option>
-									<option value="6" <?php if ($donnees["AdminGrade"] == 9) {echo "selected";} ?>>Administrateur</option>
-									<option value="7" <?php if ($donnees["AdminGrade"] == 10) {echo "selected";} ?>>Référent R.P</option>
-									<option value="8" <?php if ($donnees["AdminGrade"] == 11) {echo "selected";} ?>>Chef Mappeur</option>
-									<option value="9" <?php if ($donnees["AdminGrade"] == 12) {echo "selected";} ?>>Chef Développeur</option>
-									<option value="10" <?php if ($donnees["AdminGrade"] == 13) {echo "selected";} ?>>D.R.H</option>
-									<option value="11" <?php if ($donnees["AdminGrade"] == 14) {echo "selected";} ?>>Technicien Intranet</option>
-									<option value="12" <?php if ($donnees["AdminGrade"] == 15) {echo "selected";} ?>>Technicien Intranet / Modérateur</option>
+									<option value="2" <?php if ($donnees["AdminGrade"] == 2) {echo "selected";} ?>>Staff</option>
+									<option value="3" <?php if ($donnees["AdminGrade"] == 3) {echo "selected";} ?>>Helpeur</option>
+									<option value="4" <?php if ($donnees["AdminGrade"] == 4) {echo "selected";} ?>>Ingénieur Technique</option>
+									<option value="5" <?php if ($donnees["AdminGrade"] == 5) {echo "selected";} ?>>Support Technique</option>
+									<option value="6" <?php if ($donnees["AdminGrade"] == 6) {echo "selected";} ?>>Développeur</option>
+									<option value="7" <?php if ($donnees["AdminGrade"] == 7) {echo "selected";} ?>>Directeur Artistique</option>
+									<option value="8" <?php if ($donnees["AdminGrade"] == 8) {echo "selected";} ?>>Modérateur</option>
+									<option value="9" <?php if ($donnees["AdminGrade"] == 9) {echo "selected";} ?>>Administrateur</option>
+									<option value="10" <?php if ($donnees["AdminGrade"] == 10) {echo "selected";} ?>>Référent R.P</option>
+									<option value="11" <?php if ($donnees["AdminGrade"] == 11) {echo "selected";} ?>>Chef Mappeur</option>
+									<option value="12" <?php if ($donnees["AdminGrade"] == 12) {echo "selected";} ?>>Chef Développeur</option>
+									<option value="13" <?php if ($donnees["AdminGrade"] == 13) {echo "selected";} ?>>D.R.H</option>
+									<option value="14" <?php if ($donnees["AdminGrade"] == 14) {echo "selected";} ?>>Technicien Intranet</option>
+									<option value="15" <?php if ($donnees["AdminGrade"] == 15) {echo "selected";} ?>>Technicien Intranet / Modérateur</option>
 								</select>
 								<input type="submit" name="icc-btn-adminGrade" value="Change le niveau d'administration">
 							</form>
