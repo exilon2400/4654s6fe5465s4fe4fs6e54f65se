@@ -31,12 +31,17 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/velocity.js"></script>
 	<title>Tirna | Console</title>
+	<script type="text/javascript">
+		function scrollDown () {
+			document.getElementById("console-scroll").scrollBy(0,180000000);
+		}
+	</script>
 </head>
-<body>
+<body onload="scrollDown()">
 	<?php include 'lib/partials/primary/header.php'; ?>
 	<div class="content">
 		<form method="post" class="console">
-			<p class="console-main" style="color: <?php echo $_SESSION["TIRNA_COMMAND_COLOR"];?>;"><?php echo $_SESSION["TIRNA_COMMAND"]; ?></p><br><br>
+			<p id="console-scroll" class="console-main" style="color: <?php echo $_SESSION["TIRNA_COMMAND_COLOR"];?>;"><?php echo $_SESSION["TIRNA_COMMAND"]; ?></p><br><br>
 			<input class="console-command" type="text" name="command" placeholder="Entrez votre commande." autofocus><br><br>
 			<input class="console-submit" type="submit" name="send" value="Executez">
 		</form>

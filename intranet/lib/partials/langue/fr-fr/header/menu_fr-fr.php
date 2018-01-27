@@ -21,9 +21,14 @@
 					<img src="img/console.svg" width="80px;">
 					<p>Console</p>
 				</div></a>
-				<div class="TIRNA_header_menu_box" style="background: rgba(0,0,0,0.3);">
+				<a href="search.php"><div class="TIRNA_header_menu_box">
 					<img src="img/search.svg" width="80px;">
-					<p>Rechercher - En dev</p>
+					<p>Rechercher</p>
+				</div></a>
+
+				<div class="TIRNA_header_menu_box" style="background: rgba(0,0,0,0.3);">
+					<img src="img/build.svg" width="80px;">
+					<p>Indisponnible</p>
 				</div>
 
 				<?php if ($_SESSION["AdminGrade"] >= 2) { ?>
@@ -32,15 +37,11 @@
 						<p>Panneau d'adminitration</p>
 					</div></a>
 				<?php } else { ?>
-					<div class="TIRNA_header_menu_box" style="background: rgba(0,0,0,0.3);">
-						<img src="img/build.svg" width="80px;">
-						<p>Indisponnible</p>
-					</div>
+					<div class="TIRNA_header_menu_box"  style="background: rgba(0,0,0,0.3);">
+						<img src="img/admin.svg" width="80px;">
+						<p>Panneau d'adminitration</p>
+					</div
 				<?php } ?>
-				<div class="TIRNA_header_menu_box" style="background: rgba(0,0,0,0.3);">
-					<img src="img/build.svg" width="80px;">
-					<p>Indisponnible</p>
-				</div>
 			</center>
 
 			<div class="TIRNA_header_menu_title">

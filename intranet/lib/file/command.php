@@ -91,6 +91,10 @@
 		include 'lib/file/command/use.php';
 	}
 
+	elseif($args[0] == "whoami" || $command == "whoami") {
+		include 'lib/file/command/whoami.php';
+	}
+
 	else {
 		$_SESSION["TIRNA_COMMAND"] = $_SESSION["TIRNA_COMMAND"].' > '.' La commande : '.$command.' n\'est pas reconnue<br>';
 	}
