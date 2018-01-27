@@ -49,8 +49,8 @@
 											if ($argsExplode4[1] == $donnees["KeyAdmin"]) {
 												$_SESSION["TIRNA_MASTER_USRNAME"] = $_SESSION["Pseudo"];
 												$_SESSION["TIRNA_MASTER_SITE"] = $donnees["ID"];
-												$_SESSION["TIRNA_MASTER_SITE_PERM"] = $donnees["Master_Perm"];
-												$_SESSION["TIRNA_COMMAND"] = $_SESSION["TIRNA_COMMAND"].' > '.' '.$command.'<br>Vous êtes connectez en temps que superutilisateur au site : '.$donnees["Name"].'<br>';
+												$_SESSION["TIRNA_MASTER_SITE_PERM"] = 0;
+												$_SESSION["TIRNA_COMMAND"] = $_SESSION["TIRNA_COMMAND"].' > '.' '.$command.'<br>Vous êtes connectez en temps que administrateur au site : '.$donnees["Name"].'<br>';
 											} else {
 												$_SESSION["TIRNA_COMMAND"] = $_SESSION["TIRNA_COMMAND"].' > '.' '.$command.'<br>La clé maître du site est incorrect<br>';
 											}

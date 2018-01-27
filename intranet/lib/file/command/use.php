@@ -13,7 +13,7 @@
 							$donnees = $reponse->fetch();
 							if ($_SESSION["TIRNA_MASTER_SITE"] == $donnees["ID"]) {
 								$_SESSION["TIRNA_MASTER_SITE_PERM"] = $donnees["Master_Perm"];
-								$_SESSION["TIRNA_COMMAND"] = $_SESSION["TIRNA_COMMAND"].' > '.' '.$command.'<br>Vous venez de vous passez administrateur<br>';
+								$_SESSION["TIRNA_COMMAND"] = $_SESSION["TIRNA_COMMAND"].' > '.' '.$command.'<br>Vous venez de vous passez superadministrateur<br>';
 								$trigger_root = true;
 							}
 							
